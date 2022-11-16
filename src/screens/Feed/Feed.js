@@ -56,7 +56,7 @@ function Feed() {
       author: "serratec.do.shitpost",
       picture_url:
         "https://cdn.discordapp.com/attachments/256240057390727178/1042273682933944340/ratana.png",
-      likes: 3788,
+      likes: 4788,
       description: "Mais um pack diário pra galera 😎👍",
       hashtags: "#memes #shitpost",
       place: "Ratanabá",
