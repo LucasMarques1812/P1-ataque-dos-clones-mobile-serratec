@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "app-clonar",
+    "slug": "app-clonar",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "app-clonar"
+}
