@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
+  BackHandler,
 } from "react-native";
 
 import options from "../../assets/options.png";
@@ -14,16 +15,17 @@ import like from "../../assets/like.png";
 import comment from "../../assets/comment.png";
 import send from "../../assets/send.png";
 import save from "../../assets/save.png";
+import { useNavigation } from "@react-navigation/native";
 
 function Feed() {
   const posts = [
     {
       id: "1",
-      author: "jogatina.Memes-Tec",
+      author: "jogatina.Memes",
       picture_url:
         "https://cdn.discordapp.com/attachments/256240057390727178/1042279257172357160/atreus-boy_meme.png",
       likes: 2317,
-      description: "Novo GOW mal foi lançado e já to amando 😍😍😍",
+      description: "Novo GOW mal saiu e já to amando dms 😍😍😍",
       hashtags: "#GOW #Ragnarok #GOTY",
       place: "Ancient Scandinavia",
     },
@@ -33,7 +35,8 @@ function Feed() {
       picture_url:
         "https://cdn.discordapp.com/attachments/256240057390727178/1042283528823509002/Ukraine_poland.png",
       likes: 78.987,
-      description: "A Russian-made missile killed two people in Poland near its Ukraine border: Polish government",
+      description:
+        "A Russian-made missile killed two people in Poland near its Ukraine border: Polish government",
       hashtags: "#ukrainianwar #russia",
       place: "Polish-ukrainian border",
     },
@@ -43,7 +46,8 @@ function Feed() {
       picture_url:
         "https://cdn.discordapp.com/attachments/256240057390727178/1042286448348504095/Ukraine_poland_-_Copia.png",
       likes: 3996701,
-      description: "Our new single 'this is why' is finally out! Available on all streaming plataforms",
+      description:
+        "Our new single 'this is why' is finally out! Available on all streaming plataforms",
       hashtags: "#Paramore #Paramoreisback #ThisIsWhy #NewSingle",
       place: "U.S.A",
     },

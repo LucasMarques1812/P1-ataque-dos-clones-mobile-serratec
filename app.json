@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app-clonar",
-    "slug": "app-clonar",
+    "name": "app-instagram-LoginFeed",
+    "slug": "app-instagram-LoginFeed",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "app-clonar"
+  "name": "app-instagram-LoginFeed"
 }
